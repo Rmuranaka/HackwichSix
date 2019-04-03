@@ -12,6 +12,8 @@
 		027009C222549E9500E7A95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027009C022549E9500E7A95E /* Main.storyboard */; };
 		027009C422549E9600E7A95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027009C322549E9600E7A95E /* Assets.xcassets */; };
 		027009C722549E9600E7A95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027009C522549E9600E7A95E /* LaunchScreen.storyboard */; };
+		027009CF2254A32D00E7A95E /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 027009CE2254A32D00E7A95E /* Property List.plist */; };
+		02AA64BA2254C14C00BD8793 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA64B92254C14C00BD8793 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		027009C322549E9600E7A95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		027009C622549E9600E7A95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		027009C822549E9600E7A95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027009CE2254A32D00E7A95E /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		02AA64B92254C14C00BD8793 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				027009BC22549E9500E7A95E /* AppDelegate.swift */,
 				027009BE22549E9500E7A95E /* ViewController.swift */,
+				02AA64B92254C14C00BD8793 /* detailViewController.swift */,
+				027009CE2254A32D00E7A95E /* Property List.plist */,
 				027009C022549E9500E7A95E /* Main.storyboard */,
 				027009C322549E9600E7A95E /* Assets.xcassets */,
 				027009C522549E9600E7A95E /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				027009C722549E9600E7A95E /* LaunchScreen.storyboard in Resources */,
 				027009C422549E9600E7A95E /* Assets.xcassets in Resources */,
+				027009CF2254A32D00E7A95E /* Property List.plist in Resources */,
 				027009C222549E9500E7A95E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				027009BF22549E9500E7A95E /* ViewController.swift in Sources */,
 				027009BD22549E9500E7A95E /* AppDelegate.swift in Sources */,
+				02AA64BA2254C14C00BD8793 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
